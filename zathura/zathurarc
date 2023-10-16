@@ -1,0 +1,53 @@
+set adjust-open "best-fit"
+
+set pages-per-row 1
+
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+set zoom-min 10
+set guioptions "s"
+
+
+# zathurarc-color
+set font Firacode Bold 10
+set default-bg "#333c43"
+set default-fg "#d3c6aa"
+
+set statusbar-bg "#4d5960"
+set statusbar-fg "#a7c080"
+
+set inputbar-bg "#4d5960"
+set inputbar-fg "#a7c080"
+
+set notification-error-bg "#4d5960"
+set notification-error-fg "#e69875"
+
+set notification-warning-bg "#4d5960"
+set notification-warning-fg "#e67e80"
+
+set highlight-color "#a7c080"
+set highlight-active-color "#dbbc7f"
+
+set completion-highlight-bg "#4d5960"
+set completion-highlight-fg "#a7c080"
+
+set completion-bg "#4d5960"
+set completion-fg "#a7c080"
+
+set notification-bg "#4d5960"
+set notification-fg "#a7c080"
+
+set recolor "true"
+set recolor-lightcolor "#4d5960"
+set recolor-darkcolor "#d3c6aa"
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set default-bg "#333c43"
+set default-fg "#d3c6aa"
+
+set render-loading "false"
+set scroll-step 50

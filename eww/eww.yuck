@@ -1,0 +1,203 @@
+(defpoll time :interval "1s"
+`date "+%H:%M:%S"`)
+(defpoll date :interval "1s"
+`date "+%a %d/%m"`)
+(defpoll brightness :interval "0.25s"
+`light -G`)
+(defpoll volume :interval "0.25s"
+`wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{ print $2 }'`)
+(defpoll ws :interval "0.15s"
+`sh ./Scripts/getWorkspaces.sh`)
+(defpoll wifi :interval "2s"
+`sh ./Scripts/getWifiStatus.sh`)
+(defvar show-powermenu false)
+
+(defwindow bar
+  :monitor 0
+  :windowtype "dock"
+  :exclusive true
+  :focusable false
+  :geometry (geometry
+    :width "99%"
+    :height "25px"
+    :y "10px"
+    :anchor "top center"
+  )
+  (bar)
+)
+
+(defwidget bar []
+  (box
+    :class "barra"
+    (left)
+    (center)
+    (right)
+  )
+)
+
+(defwidget left []
+  (box
+    :spacing "20"
+    :space-evenly "false"
+    :class "moduleL"
+    :halign "start"
+    
+    (workspaceW)
+  )
+)
+
+(defwidget center []
+  (box
+    :spacing "20"
+    :space-evenly "false"
+    :class "moduleC"
+    :halign "center"
+    
+    (timeW)
+  )
+)
+
+(defwidget right []
+  (box
+    :spacing "20"
+    :space-evenly "false"
+    :class "moduleR"
+    :halign "end"
+    
+    (wifiW)
+    "|"
+    (metersW)
+    "|"
+    (powermenuW)
+  )
+)
+
+(defwidget timeW []
+  (box
+    :space-evenly "false"
+    :halign "center"
+    :spacing "10"
+    (box
+      :class "time-widget"
+      :space-evenly "false"
+      :halign "center"
+      (label
+        :style "font-size: 24px; padding-bottom: 3px"
+      :text "󰥔")
+      (label
+        :text "${time}"
+      )
+    )
+    (label
+      :text ""
+    )
+    (label
+      :class "date-widget"
+      :text "${date}"
+    )
+  )
+)
+
+(defwidget metersW []
+  (box
+    :halign "end"
+    :spacing "6"
+    (circular-progress
+      :class "circ-values-1"
+      :start-at "75"
+      :thickness 4
+      :value "${volume * 100}"
+      (label
+        :text ""
+        :style "color: inherit"
+      :class "circle")
+    )
+    (circular-progress
+      :class "circ-values-2"
+      :start-at "75"
+      :thickness 4
+      :value "${brightness}"
+      (label
+        :text ""
+        :style "color: inherit"
+      :class "circle")
+    )
+    (circular-progress
+      :class "circ-values-3"
+      :start-at "75"
+      :thickness 4
+      :value "${EWW_BATTERY['BAT1']['capacity']}"
+      (label
+        :text {EWW_BATTERY['BAT1']['status'] == "Charging" ? "" : ""}
+        :style "color: inherit"
+      :class "circle")
+    )
+  )
+)
+
+(defwidget workspaceW []
+  (box
+    :spacing "10"
+    :halign "center"
+    (for entry in ws
+      (label
+        :class {entry == "" ? "empty-workspace" : entry == "" ? "used-workspace" : "active-workspace"}
+        :text "${entry}"
+      )
+    )
+  )
+)
+
+(defwidget wifiW []
+  (box
+    :space-evenly "false"
+    :halign "center"
+    :spacing "5"
+    (label
+      :class {wifi == "No connection" ? "no-wifi" : "yes-wifi" }
+      :text "${wifi == "No connection" ? "󰤮" : "󰤨" }"
+    )
+    (label
+      :class {wifi == "No connection" ? "no-wifi-text" : "yes-wifi-text" }
+      :text "${wifi}"
+    )
+  )
+)
+
+(defwidget powermenuW []
+  (eventbox
+    :onhover "${EWW_CMD} update show-powermenu=true"
+    :onhoverlost "${EWW_CMD} update show-powermenu=false"
+    (box
+      :space-evenly "false"
+      :spacing "10"
+      (button
+        :timeout "6000ms"
+        :onclick "dunstify 'Shutting down...' -u critical; sleep 3s; systemctl poweroff"
+        (label
+          :class "power-icons"
+        :text ""))
+      (revealer
+        :transition "slideleft"
+        :reveal "${show-powermenu}"
+        :duration "0.2s"
+        (box
+          :space-evenly "false"
+          :spacing "10"
+          (button
+            :timeout "6000ms"
+            :onclick "dunstify 'Rebooting...' -u critical; sleep 3s; systemctl reboot"
+            (label
+              :class "power-icons"
+            :text ""))
+          (button
+            :timeout "6000ms"
+            :onclick "dunstify 'Logging out...' -u critical; sleep 3s; hyprctl dispatch exit"
+            (label
+              :class "power-icons"
+            :text ""))
+        )
+      )
+    )
+  )
+)

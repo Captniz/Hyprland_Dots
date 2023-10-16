@@ -1,0 +1,5 @@
+configuration{
+	font: "FiraCode Nerd Font 15";
+}
+
+@theme "./themes/gruvbox-light-soft.rasi"

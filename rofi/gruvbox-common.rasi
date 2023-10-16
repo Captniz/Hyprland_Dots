@@ -1,0 +1,91 @@
+/* ==========================================================================
+   File: gruvbox-common.rasi
+   Desc: Shared rules between all gruvbox themes
+   Author: bardisty <b@bah.im>
+   Source: https://github.com/bardisty/gruvbox-rofi
+   Modified: Mon Feb 12 2018 06:06:47 PST -0800
+   ========================================================================== */
+
+window {
+    background-color: @gruvbox-light-bg0;
+    border-color: @gruvbox-light-bg1;
+    border: 2px;
+}
+mainbox{
+    background-color: @gruvbox-light-bg0;
+}
+
+textbox {
+    background-color: @gruvbox-light-bg0;
+    highlight:  bold underline;
+    text-color: @gruvbox-light-fg0;
+}
+
+listview {
+    background-color: @gruvbox-light-bg0;
+    border:       2px solid 0 0;
+    padding:      2px 0 0;
+    border-color: @gruvbox-light-bg1;
+    spacing:      2px;
+}
+
+element {
+    background-color: @gruvbox-light-bg0;
+    border:  0;
+    padding: 2px;
+}
+
+element.normal.normal {
+    background-color: @gruvbox-light-bg0;
+    text-color:       @gruvbox-light-fg0;
+}
+
+element.selected.normal {
+    background-color: @gruvbox-light-bg2;
+    text-color:       @gruvbox-light-fg1;
+}
+
+element.alternate.normal {
+    background-color: @gruvbox-light-bg0;
+    text-color:       @gruvbox-light-fg0;
+}
+
+inputbar {
+    spacing:    0;
+    background-color: @gruvbox-light-bg0;
+    text-color: @gruvbox-light-fg0;
+    padding:    10px 3px 10px 3px;
+    children:   [ prompt, textbox-prompt-sep, entry, case-indicator ];
+}
+
+case-indicator,
+entry,
+prompt,
+button {
+    background-color: @gruvbox-light-bg0;
+    spacing:    0;
+    text-color: @gruvbox-light-fg0;
+}
+
+button.selected {
+    background-color: @gruvbox-light-bg0;
+    text-color:       @gruvbox-light-fg0;
+}
+
+mod-switcher{
+    background-color: @gruvbox-light-bg2;
+}
+prompt {
+    text-color: @gruvbox-light-fg2;
+}
+textbox-prompt-sep {
+    expand:     false;
+    str:        ":";
+    background-color: @gruvbox-light-bg0;
+    text-color: @gruvbox-light-fg0;
+    margin:     0 0.3em 0 0;
+}
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}

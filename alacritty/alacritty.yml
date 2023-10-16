@@ -1,0 +1,13 @@
+font:
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+  normal:
+    family: FiraCode Nerd Font
+    style: Retina
+  size: 11
+import:
+- ~/Repos/alacritty-theme/themes/everforest_dark.yml
