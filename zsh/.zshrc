@@ -8,12 +8,13 @@ export ZSH="$HOME/.oh-my-zsh"
 export BROWSER=firefox
 export RANGER_LOAD_DEFAULT_RC=false
 export EDITOR=nvim
+export TERM=xterm
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="kennethreitz" #<-- applied some changes to this theme
+ZSH_THEME="kennethreitz"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -117,3 +118,4 @@ alias xstop="sudo xampp stop apache"
 alias psqlogin="sudo -iu postgres"
 alias psqlstart="sudo systemctl start postgresql.service"
 alias flushWifiConnections="sudo rm /etc/NetworkManager/system-connections/*"
+alias mountall="sudo mount /dev/sd[a-z]*[1-9]* ~/ExternalDriveMount"

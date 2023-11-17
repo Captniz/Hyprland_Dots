@@ -212,6 +212,8 @@ if __name__ == "__main__":
     # - auto detect text/json/yaml
     # - Il theme changer di rofi sarebbe meglio se agisse su il tema nel config di rofi al posto di cambiare solo i colori
     # - metti su rofi
+    # - Fixxa il fatto che su rofi il programma sballa quando lo lanci
+    #fix sddm
 
     # PROTOTYPE FIREFOX THEME CHANGER
     '''
