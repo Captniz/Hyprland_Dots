@@ -204,16 +204,14 @@ if __name__ == "__main__":
 
 
 #TODO:
-    # - aggiugni dunst
-    # - fix firefox: guarda in prefs.js in alto il commento
-    # - fix firefox: user js cambia anche theme.toolbar 1=light 0=dark
-    # - fix firefox
-    # - restore "older-files"
-    # - auto detect text/json/yaml
-    # - Il theme changer di rofi sarebbe meglio se agisse su il tema nel config di rofi al posto di cambiare solo i colori
-    # - metti su rofi
-    # - Fixxa il fatto che su rofi il programma sballa quando lo lanci
-    #fix sddm
+    # FIXES
+    # ~ Fix firefox: 
+    # - Guarda in prefs.js in alto il commento
+    # - User js cambia anche theme.toolbar 1=light 0=dark
+    # ADDITIONS
+    # ~ Restore "older-files"
+    # ~ Auto detect text/json/yaml
+    # ~ Il theme changer di rofi sarebbe meglio se agisse su il tema nel config di rofi al posto di cambiare solo i colori
 
     # PROTOTYPE FIREFOX THEME CHANGER
     '''
