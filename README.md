@@ -27,3 +27,4 @@ Config files from my Arch - Hyprland linux daily driver, planning on eventually 
 <div align="center" >
     <img src="imgs/Dark.png" width="1000%" height="%100" style="border: grey solid 1px">
 </div>
+
