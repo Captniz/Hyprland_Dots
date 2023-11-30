@@ -148,7 +148,7 @@ class themeReplacer:
             elif type == "command":
                 self.SubsCommand(category);
             else:
-                print("Error: type not supported")
+                print("Error: type not supported: " + type)
             return
         switch(self.data[category]["type"])
 

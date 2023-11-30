@@ -18,13 +18,13 @@
     scrollbar: false;
 
     /* Gruvbox light colors */
-gruvbox-light-bg0: #F3EAD3;
-gruvbox-light-bg1: #D8D3BA;
-gruvbox-light-bg2: #8DA101;
-gruvbox-light-bg3: #E5DFC5;
-gruvbox-light-fg0: #5C6A72;
-gruvbox-light-fg1: #F3EAD3;
-gruvbox-light-fg2: #8DA101;
+gruvbox-light-bg0: #ffffff;
+gruvbox-light-bg1: #E5E5E5;
+gruvbox-light-bg2: #FCA311;
+gruvbox-light-bg3: #E5E5E5;
+gruvbox-light-fg0: #14213D;
+gruvbox-light-fg1: #14213D;
+gruvbox-light-fg2: #FCA311;
 }
 
 @import "gruvbox-common.rasi"

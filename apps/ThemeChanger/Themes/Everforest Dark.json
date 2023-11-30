@@ -15,7 +15,7 @@
       "$blue:": "$blue: #7fbbb3;",
       "$aqua:": "$aqua: #83c092;",
       "$border:": "$border: #7a8478;",
-      "$font:": "$font: \"Iosevka Nerd Font Mono\";"
+      "$font:": "$font: \"Iosevka NFM\";"
     }
   },
   "alacritty": {
@@ -58,7 +58,7 @@
     "confile": "appearance.json",
     "configs":{
       "accentColor": "#a7c080",
-      "csstheme": "Everforest",
+      "cssTheme": "Everforest",
       "theme": "obsidian", 
       "monospaceFontFamily": "FiraCode Nerd Font Mono",
       "textFontFamily": "Inter,FiraCode Nerd Font",

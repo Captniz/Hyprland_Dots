@@ -4,17 +4,17 @@
     "path": "/home/simo/.config/eww/",
     "confile": "colors.scss",
     "configs": {
-      "$bg:": "$bg: #fdf6e3;",
-      "$hbg:": "$hbg: #E0DCC7;",
-      "$fg:": "$fg: #708089;",
-      "$purple:": "$purple: #DF69BA;",
-      "$red:": "$red: #F85552;",
-      "$orange:": "$orange: #F57D26;",
-      "$yellow:":  "$yellow: #DFA000;",
-      "$green:": "$green: #8DA101;",
-      "$blue:": "$blue: #3A94C5;",
-      "$aqua:": "$aqua: #359fa7;",
-      "$border:": "$border: #cfc7b5;",
+      "$bg:": "$bg: #FFFFFF;",
+      "$hbg:": "$hbg: #E5E5E5;",
+      "$fg:": "$fg: #000000;",
+      "$purple:": "$purple: #FCA311;",
+      "$red:": "$red: #FCA311;",
+      "$orange:": "$orange: #FCA311;",
+      "$yellow:": "$yellow: #FCA311;",
+      "$green:": "$green: #FCA311;",
+      "$blue:": "$blue: #FCA311;",
+      "$aqua:": "$aqua: #FCA311;",
+      "$border:": "$border: #14213D;",
       "$font:": "$font: \"Iosevka NFM\";"
     }
   },
@@ -24,7 +24,7 @@
     "confile": "alacritty.yml",
     "configs": {
       "import": [
-        "~/Repos/alacritty-theme/themes/everforest_light.yml"
+        "~/Repos/alacritty-theme/themes/monochrome_light.yml"
       ],
       "font": {
         "normal": {
@@ -48,7 +48,7 @@
     "path":"/home/simo/.config/Code/User/",
     "confile": "settings.json",
     "configs": {
-      "workbench.colorTheme": "Everforest Light",
+      "workbench.colorTheme": "Monochrome Light Amplified",
       "workbench.iconTheme": "material-icon-theme"
     }  
   },
@@ -57,8 +57,8 @@
     "path": "/home/simo/Repos/Notes/.obsidian/",
     "confile": "appearance.json",
     "configs":{
-      "accentColor": "#8da101",
-      "cssTheme": "Everforest",
+      "accentColor": "#FCA311",
+      "cssTheme": "Atom",
       "theme": "moonstone",
       "monospaceFontFamily": "FiraCode Nerd Font Mono",
       "textFontFamily": "Inter,FiraCode Nerd Font",
@@ -78,7 +78,7 @@
     "path":"/home/simo/.mozilla/firefox/ytw3l6ko.default-release/",
     "confile": "extensions.json",
     "configs": {
-        "theme": "Everforest Light",
+        "theme": "Default",
         "user_pref(\"extensions.activeThemeID\",": "user_pref(\"extensions.activeThemeID\", \"{08400cc9-1bf6-4e3e-b175-2d2650bc3104}\");"
     }
   },
@@ -87,8 +87,8 @@
     "path": "/home/simo/.config/hypr/",
     "confile": "HyprlandStyle.conf",
     "configs": {
-      "$activeBorder": "$activeBorder = rgba(8DA101dd)",
-      "$inactiveBorder":"$inactiveBorder = rgba(c5c9aaff)",
+      "$activeBorder": "$activeBorder = rgba(FCA311dd)",
+      "$inactiveBorder":"$inactiveBorder = rgba(14213Ddd)",
       "$shadow": "$shadow = rgba(1a1a1aee)"
     }
   },
@@ -97,7 +97,7 @@
     "path": "",
     "confile": "",
     "configs": [
-      "swww img --transition-type wipe --transition-angle 30 --transition-step 120 /home/simo/Repos/Wallpapers/30.jpg"
+      "swww img --transition-type wipe --transition-angle 30 --transition-step 120 /home/simo/Repos/Wallpapers/26.png"
     ]
   },
   "rofi": {
@@ -105,14 +105,14 @@
     "path":"/home/simo/.config/rofi/themes/",
     "confile": "gruvbox-light-soft.rasi",
     "configs":{
-      "gruvbox-light-bg0:": "gruvbox-light-bg0: #F3EAD3;",
-      "gruvbox-light-bg1:": "gruvbox-light-bg1: #D8D3BA;",
-      "gruvbox-light-bg2:": "gruvbox-light-bg2: #8DA101;",
-      "gruvbox-light-bg3:": "gruvbox-light-bg3: #E5DFC5;",
-      "gruvbox-light-fg0:": "gruvbox-light-fg0: #5C6A72;",
-      "gruvbox-light-fg1:": "gruvbox-light-fg1: #F3EAD3;",
-      "gruvbox-light-fg2:": "gruvbox-light-fg2: #8DA101;",
-      "gruvbox-light-gray:": "gruvbox-light-gray: #7c6f64;"
+      "gruvbox-light-bg0:": "gruvbox-light-bg0: #ffffff;",
+      "gruvbox-light-bg1:": "gruvbox-light-bg1: #E5E5E5;",
+      "gruvbox-light-bg2:": "gruvbox-light-bg2: #FCA311;",
+      "gruvbox-light-bg3:": "gruvbox-light-bg3: #E5E5E5;",
+      "gruvbox-light-fg0:": "gruvbox-light-fg0: #14213D;",
+      "gruvbox-light-fg1:": "gruvbox-light-fg1: #14213D;",
+      "gruvbox-light-fg2:": "gruvbox-light-fg2: #FCA311;",
+      "gruvbox-light-gray:": "gruvbox-light-gray: #000000;"
     }
   },
   "zathura": {
@@ -121,27 +121,26 @@
     "confile": "zathurarc",
     "configs":{
       "font": "set font Firacode Bold 10",
-      "default-bg": "set default-bg \"#FDF6E3\"", 
-      "default-fg": "set default-fg \"#5C6A72\"", 
-      "statusbar-bg": "set statusbar-bg \"#FDF6E3\"",
-      "statusbar-fg": "set statusbar-fg \"#93B259\"",
-      "inputbar-bg": "set inputbar-bg \"#FDF6E3\"",
-      "inputbar-fg": "set inputbar-fg \"#93B259\"",
-      "notification-error-bg": "set notification-error-bg \"#FDF6E3\"", 
+      "default-bg": "set default-bg \"#ffffff\"", 
+      "default-fg": "set default-fg \"#14213D\"", 
+      "statusbar-bg": "set statusbar-bg \"#ffffff\"",
+      "statusbar-fg": "set statusbar-fg \"#FCA311\"",
+      "inputbar-bg": "set inputbar-bg \"#ffffff\"",
+      "inputbar-fg": "set inputbar-fg \"#FCA311\"",
+      "notification-error-bg": "set notification-error-bg \"#ffffff\"", 
       "notification-error-fg": "set notification-error-fg \"#F57D26\"",
       "notification-warning-bg": "set notification-warning-bg \"#FDF6E3\"",
       "notification-warning-fg": "set notification-warning-fg \"#E66868\"",
-      "highlight-color": "set highlight-color #8DA101", 
-      "highlight-active-color": "set highlight-active-color \"#DFA000\"",
+      "highlight-color": "set highlight-color #FCA311", 
+      "highlight-active-color": "set highlight-active-color \"#FCA311\"",
       "completion-highlight-bg": "set completion-highlight-bg \"#FDF6E3\"",
-      "completion-highlight-fg": "set completion-highlight-fg \"#93B259\"",
-      "completion-bg": "set completion-bg \"#FDF6E3\"", 
-      "completion-fg": "set completion-fg \"#93B259\"", 
-      "notification-bg": "set notification-bg \"#FDF6E3\"",
-      "notification-fg": "set notification-fg \"#93B259\"",
-      "recolor-lightcolor": "set recolor-lightcolor \"#FDF6E3\"",
-      "recolor-darkcolor": "set recolor-darkcolor \"#5C6A72\""
+      "completion-highlight-fg": "set completion-highlight-fg \"#FCA311\"",
+      "completion-bg": "set completion-bg \"#ffffff\"", 
+      "completion-fg": "set completion-fg \"#FCA311\"", 
+      "notification-bg": "set notification-bg \"#ffffff\"",
+      "notification-fg": "set notification-fg \"#FCA311\"",
+      "recolor-lightcolor": "set recolor-lightcolor \"#ffffff\"",
+      "recolor-darkcolor": "set recolor-darkcolor \"#14213D\""
     }
   }
 }
-
