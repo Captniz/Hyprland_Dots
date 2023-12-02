@@ -10,4 +10,4 @@ font:
     style: Retina
   size: 11
 import:
-- ~/Repos/alacritty-theme/themes/monochrome_light.yml
+- ~/Repos/alacritty-theme/themes/everforest_dark.yml
