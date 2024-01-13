@@ -10,6 +10,9 @@ Config files from my Arch - Hyprland linux daily driver, planning on eventually 
 - [Table of Contents](#table-of-contents)
 - [Gallery](#gallery)
   - [Theme: Everforest](#theme-everforest)
+- [Tips \& commands](#tips--commands)
+  - [Tips](#tips)
+  - [Commands](#commands)
 
 ## Gallery
 
@@ -27,3 +30,14 @@ Config files from my Arch - Hyprland linux daily driver, planning on eventually 
     <img src="imgs/Dark.png" width="1000%" height="%100" style="border: grey solid 1px">
 </div>
 
+## Tips & commands  
+
+### Tips
+
+### Commands
+
+*Check the .zshrc for aliases and .local/share/applications for scripts*
+
+```bash
+chtheme : changes theme
+```
