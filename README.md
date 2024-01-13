@@ -1,4 +1,4 @@
-# Hyprland_Dots
+<h1 align="center"><b>[Hyprland] Arch Dots</b></h1>
 Config files from my Arch - Hyprland linux daily driver, planning on eventually making this into a distro.
 
 <div align="center" >
@@ -7,10 +7,9 @@ Config files from my Arch - Hyprland linux daily driver, planning on eventually 
 
 ## Table of Contents
 
-- [Hyprland\_Dots](#hyprland_dots)
-  - [Table of Contents](#table-of-contents)
-  - [Gallery](#gallery)
-    - [Theme: Everforest](#theme-everforest)
+- [Table of Contents](#table-of-contents)
+- [Gallery](#gallery)
+  - [Theme: Everforest](#theme-everforest)
 
 ## Gallery
 

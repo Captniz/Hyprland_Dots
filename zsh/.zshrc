@@ -8,7 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 export BROWSER=firefox
 export RANGER_LOAD_DEFAULT_RC=false
 export EDITOR=nvim
-export TERM=xterm
+export TERM=linux
+export TERMINFO=/etc/zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -122,3 +123,4 @@ alias mountall="sudo mount /dev/sd[a-z]*[1-9]* ~/ExternalDriveMount"
 alias chtheme="python -u \"/home/simo/.local/share/applications/ThemeChanger/ThemeChanger.py\""
 alias ocr="tesseract"
 alias zathura="zathura --config-dir=\"\""
+alias cat="bat"

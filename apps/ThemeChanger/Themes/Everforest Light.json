@@ -19,27 +19,27 @@
     }
   },
   "alacritty": {
-    "type": "yaml",
+    "type": "toml",
     "path": "/home/simo/.config/alacritty/",
-    "confile": "alacritty.yml",
+    "confile": "alacritty.toml",
     "configs": {
       "import": [
-        "~/Repos/alacritty-theme/themes/everforest_light.yml"
+        "~/Repos/alacritty-theme/themes/everforest_light.toml"
       ],
       "font": {
-        "normal": {
-          "family": "FiraCode Nerd Font",
-          "style": "Retina"
-        },
+        "size": 11,
         "bold": {
           "family": "FiraCode Nerd Font",
           "style": "Bold"
         },
+        "normal": {
+          "family": "FiraCode Nerd Font",
+          "style": "Retina"
+        },
         "italic": {
           "family": "FiraCode Nerd Font",
           "style": "Italic"
-        },
-        "size": 11
+        }
       }
     }
   },

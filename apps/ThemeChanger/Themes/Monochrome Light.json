@@ -19,18 +19,15 @@
     }
   },
   "alacritty": {
-    "type": "yaml",
+    "type": "toml",
     "path": "/home/simo/.config/alacritty/",
-    "confile": "alacritty.yml",
+    "confile": "alacritty.toml",
     "configs": {
       "import": [
-        "~/Repos/alacritty-theme/themes/monochrome_light.yml"
+        "~/Repos/alacritty-theme/themes/monochrome_light.toml"
       ],
       "font": {
-        "normal": {
-          "family": "FiraCode Nerd Font",
-          "style": "Retina"
-        },
+        "size": 11,
         "bold": {
           "family": "FiraCode Nerd Font",
           "style": "Bold"
@@ -39,7 +36,10 @@
           "family": "FiraCode Nerd Font",
           "style": "Italic"
         },
-        "size": 11
+        "normal": {
+          "family": "FiraCode Nerd Font",
+          "style": "Retina"
+        }
       }
     }
   },
@@ -58,7 +58,7 @@
     "confile": "appearance.json",
     "configs":{
       "accentColor": "#FCA311",
-      "cssTheme": "Atom",
+      "cssTheme": "Obsidian Nord",
       "theme": "moonstone",
       "monospaceFontFamily": "FiraCode Nerd Font Mono",
       "textFontFamily": "Inter,FiraCode Nerd Font",

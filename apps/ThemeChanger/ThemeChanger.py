@@ -1,6 +1,7 @@
 ########## SETUP ##########
 
 import json
+import toml
 import yaml
 import os
 from rofi import Rofi
@@ -50,7 +51,27 @@ class themeReplacer:
                 filedata[keyword] = self.data[category]["configs"][keyword]
         with open(path + confile, 'w') as f:
             yaml.dump(filedata,f)
-        return    
+        return  
+
+    def SubsToml(self,path, confile, category):
+        """
+        Replaces keywords in a TOML file with new values.
+
+        Args:
+        path (str): The path to the file being modified.
+        confile (str): The name of the file being modified.
+        category (str): The category of the configuration data being used.
+
+        Returns:
+        None
+        """
+        with open(path + confile, 'r') as f:
+            filedata = toml.load(f)
+            for keyword in self.data[category]["configs"]:
+                filedata[keyword] = self.data[category]["configs"][keyword]
+        with open(path + confile, 'w') as f:
+            toml.dump(filedata,f)
+        return
     
     def SubsJson(self, path, confile, category):
         """
@@ -143,6 +164,8 @@ class themeReplacer:
                 self.SubsYaml(fileData[0],fileData[1],category);
             elif type == "json":
                 self.SubsJson(fileData[0],fileData[1],category);
+            elif type == "toml":
+                self.SubsToml(fileData[0],fileData[1],category);
             elif type == "text":
                 self.SubsText(fileData[0],fileData[1],category);
             elif type == "command":
