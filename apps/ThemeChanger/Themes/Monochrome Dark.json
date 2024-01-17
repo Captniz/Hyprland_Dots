@@ -7,13 +7,13 @@
       "$bg:": "$bg: #000000;",
       "$hbg:": "$hbg: #333C43;",
       "$fg:": "$fg: #E5E5E5;",
-      "$purple:": "$purple: #a7c080;",
-      "$red:": "$red: #a7c080;",
-      "$orange:": "$orange: #a7c080;",
-      "$yellow:": "$yellow: #a7c080;",
-      "$green:": "$green: #a7c080;",
-      "$blue:": "$blue: #a7c080;",
-      "$aqua:": "$aqua: #a7c080;",
+      "$purple:": "$purple: #e67e80;",
+      "$red:": "$red: #e67e80;",
+      "$orange:": "$orange: #e67e80;",
+      "$yellow:": "$yellow: #e67e80;",
+      "$green:": "$green: #e67e80;",
+      "$blue:": "$blue: #e67e80;",
+      "$aqua:": "$aqua: #e67e80;",
       "$border:": "$border: #E5E5E5;",
       "$font:": "$font: \"Iosevka NFM\";"
     }
@@ -57,8 +57,8 @@
     "path": "/home/simo/Repos/Notes/.obsidian/",
     "confile": "appearance.json",
     "configs":{
-      "accentColor": "#a7c080",
-      "cssTheme": "Obsidian Nord",
+      "accentColor": "#e67e80",
+      "cssTheme": "Atom",
       "theme": "obsidian", 
       "monospaceFontFamily": "FiraCode Nerd Font Mono",
       "textFontFamily": "Inter,FiraCode Nerd Font",
@@ -87,7 +87,7 @@
     "path": "/home/simo/.config/hypr/",
     "confile": "HyprlandStyle.conf",
     "configs": {
-      "$activeBorder": "$activeBorder = rgba(a7c080dd)",
+      "$activeBorder": "$activeBorder = rgba(e67e80dd)",
       "$inactiveBorder":"$inactiveBorder = rgba(ffffffff)",
       "$shadow": "$shadow = rgba(1a1a1aee)"
       
@@ -108,11 +108,11 @@
     "configs":{
       "gruvbox-light-bg0:": "gruvbox-light-bg0: #000000;",
       "gruvbox-light-bg1:": "gruvbox-light-bg1: #333C43;",
-      "gruvbox-light-bg2:": "gruvbox-light-bg2: #a7c080;",
+      "gruvbox-light-bg2:": "gruvbox-light-bg2: #e67e80;",
       "gruvbox-light-bg3:": "gruvbox-light-bg3: #434f55;",
       "gruvbox-light-fg0:": "gruvbox-light-fg0: #E5E5E5;",
       "gruvbox-light-fg1:": "gruvbox-light-fg1: #000000;",
-      "gruvbox-light-fg2:": "gruvbox-light-fg2: #a7c080;",
+      "gruvbox-light-fg2:": "gruvbox-light-fg2: #e67e80;",
       "gruvbox-light-gray:": "gruvbox-light-gray: #E5E5E5;"
     }
   },
@@ -125,21 +125,21 @@
       "default-bg": "set default-bg \"#000000\"",
       "default-fg": "set default-fg \"#E5E5E5\"", 
       "statusbar-bg": "set statusbar-bg \"#4d5960\"",
-      "statusbar-fg": "set statusbar-fg \"#a7c080\"",
+      "statusbar-fg": "set statusbar-fg \"#e67e80\"",
       "inputbar-bg": "set inputbar-bg \"#4d5960\"",
-      "inputbar-fg": "set inputbar-fg \"#a7c080\"",
+      "inputbar-fg": "set inputbar-fg \"#e67e80\"",
       "notification-error-bg": "set notification-error-bg \"#4d5960\"", 
       "notification-error-fg": "set notification-error-fg \"#e69875\"",
       "notification-warning-bg": "set notification-warning-bg \"#4d5960\"",
       "notification-warning-fg": "set notification-warning-fg \"#e67e80\"",
-      "highlight-color": "set highlight-color \"#a7c080\"", 
-      "highlight-active-color": "set highlight-active-color \"#a7c080\"",
+      "highlight-color": "set highlight-color \"#e67e80\"", 
+      "highlight-active-color": "set highlight-active-color \"#e67e80\"",
       "completion-highlight-bg": "set completion-highlight-bg \"#4d5960\"",
-      "completion-highlight-fg": "set completion-highlight-fg \"#a7c080\"",
+      "completion-highlight-fg": "set completion-highlight-fg \"#e67e80\"",
       "completion-bg": "set completion-bg \"#4d5960\"", 
-      "completion-fg": "set completion-fg \"#a7c080\"", 
+      "completion-fg": "set completion-fg \"#e67e80\"", 
       "notification-bg": "set notification-bg \"#4d5960\"",
-      "notification-fg": "set notification-fg \"#a7c080\"",
+      "notification-fg": "set notification-fg \"#e67e80\"",
       "recolor-lightcolor": "set recolor-lightcolor \"#E5E5E5\"",
       "recolor-darkcolor": "set recolor-darkcolor \"#000000\""
     }
