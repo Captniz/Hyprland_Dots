@@ -34,6 +34,8 @@ Config files from my Arch - Hyprland linux daily driver, planning on eventually 
 
 ### Tips
 
+I dunno, its just pretty standard dots (0_0)
+
 ### Commands
 
 *Check the .zshrc for aliases and .local/share/applications for scripts*
