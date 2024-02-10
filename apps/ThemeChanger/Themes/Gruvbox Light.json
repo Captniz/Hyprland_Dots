@@ -1,0 +1,148 @@
+{
+  "eww": {
+    "type": "text",
+    "path": "/home/simo/.config/eww/",
+    "confile": "colors.scss",
+    "configs": {
+      "$bg:": "$bg: #F9F5D7;",
+      "$hbg:": "$hbg: #EBDBB2;",
+      "$fg:": "$fg: #3C3836;",
+      "$purple:": "$purple: #B16286;",
+      "$red:": "$red: #CC241D;",
+      "$orange:": "$orange: #D65D0E;",
+      "$yellow:": "$yellow: #D79921;",
+      "$green:": "$green: #98971A;",
+      "$blue:": "$blue: #458588;",
+      "$aqua:": "$aqua: #689D6A;",
+      "$border:": "$border: #3C3836;",
+      "$font:": "$font: \"Iosevka NFM\";"
+    }
+  },
+  "alacritty": {
+    "type": "toml",
+    "path": "/home/simo/.config/alacritty/",
+    "confile": "alacritty.toml",
+
+    "configs": {
+      "import": [
+        "~/Repos/alacritty-theme/themes/gruvbox_light.toml"
+      ],
+      "font": {
+        "size": 11,
+        "bold": {
+          "family": "FiraCode Nerd Font",
+          "style": "Bold"
+        },
+        "italic": {
+          "family": "FiraCode Nerd Font",
+          "style": "Italic"
+        },
+        "normal": {
+          "family": "FiraCode Nerd Font",
+          "style": "Retina"
+        }
+      }
+    }
+  },
+  "vscode":{
+    "type": "json",
+    "path":"/home/simo/.config/Code/User/",
+    "confile": "settings.json",
+    "configs": {
+      "workbench.colorTheme": "Gruvbox Light Hard",
+      "workbench.iconTheme": "material-icon-theme"
+    }  
+  },
+  "obsidian": {
+    "type": "json",
+    "path": "/home/simo/Repos/Notes/.obsidian/",
+    "confile": "appearance.json",
+    "configs":{
+      "accentColor": "#458588",
+      "cssTheme": "Obsidian gruvbox",
+      "theme": "moonstone", 
+      "monospaceFontFamily": "FiraCode Nerd Font Mono",
+      "textFontFamily": "Inter,FiraCode Nerd Font",
+      "enabledCssSnippets": [ "ChangeTag" ]
+    }
+  },
+  "sddm": {
+    "type": "text",
+    "path": "/home/simo/.config/sddm/",
+    "confile": "sddm.conf",
+    "configs":{
+      "Current=": "Current= sugar-light"
+    }
+  },
+  "firefox":{
+    "type": "mixed",
+    "path":"/home/simo/.mozilla/firefox/ytw3l6ko.default-release/",
+    "confile": "extensions.json",
+    "configs": {
+      "theme": "Everforest Dark",
+      "user_pref(\"extensions.activeThemeID\",": "user_pref(\"extensions.activeThemeID\", \"{08400cc9-1bf6-4e3e-b175-2d2650bc3104}\");"
+    }
+  },
+  "hyprland": {
+    "type": "text",
+    "path": "/home/simo/.config/hypr/",
+    "confile": "HyprlandStyle.conf",
+    "configs": {
+      "$activeBorder": "$activeBorder = rgba(458588dd)",
+      "$inactiveBorder":"$inactiveBorder = rgba(ffffffff)",
+      "$shadow": "$shadow = rgba(1a1a1aee)"
+      
+    }
+  },
+  "swww":{
+    "type": "command",
+    "path": "",
+    "confile": "",
+    "configs": [
+      "swww img --transition-type wipe --transition-angle 30 --transition-step 120 /home/simo/Repos/Wallpapers/92.png"
+    ]
+  },
+  "rofi": {
+    "type": "text",
+    "path":"/home/simo/.config/rofi/themes/",
+    "confile": "gruvbox-light-soft.rasi",
+    "configs":{
+      "gruvbox-light-bg0:": "gruvbox-light-bg0: #F9F5D7;",
+      "gruvbox-light-bg1:": "gruvbox-light-bg1: #3C3836;",
+      "gruvbox-light-bg2:": "gruvbox-light-bg2: #458588;",
+      "gruvbox-light-bg3:": "gruvbox-light-bg3: #EBDBB2;",
+      "gruvbox-light-fg0:": "gruvbox-light-fg0: #282828;",
+      "gruvbox-light-fg1:": "gruvbox-light-fg1: #F9F5D7;",
+      "gruvbox-light-fg2:": "gruvbox-light-fg2: #458588;",
+      "gruvbox-light-gray:": "gruvbox-light-gray: #3C3836;"
+    }
+  },
+  "zathura": {
+    "type": "text",
+    "path":"/home/simo/.config/zathura/",
+    "confile": "zathurarc",
+    "configs":{
+      "font": "set font Firacode Bold 10",
+      "default-bg": "set default-bg \"#F9F5D7\"",
+      "default-fg": "set default-fg \"#282828\"", 
+      "statusbar-bg": "set statusbar-bg \"#F2E5BC\"",
+      "statusbar-fg": "set statusbar-fg \"#458588\"",
+      "inputbar-bg": "set inputbar-bg \"#F2E5BC\"",
+      "inputbar-fg": "set inputbar-fg \"#458588\"",
+      "notification-error-bg": "set notification-error-bg \"#CC241D\"", 
+      "notification-error-fg": "set notification-error-fg \"#282828\"",
+      "notification-warning-bg": "set notification-warning-bg \"#D79921\"",
+      "notification-warning-fg": "set notification-warning-fg \"#282828\"",
+      "highlight-color": "set highlight-color \"#458588\"", 
+      "highlight-active-color": "set highlight-active-color \"#458588\"",
+      "completion-highlight-bg": "set completion-highlight-bg \"#458588\"",
+      "completion-highlight-fg": "set completion-highlight-fg \"#282828\"",
+      "completion-bg": "set completion-bg \"#D5C4A1\"", 
+      "completion-fg": "set completion-fg \"#282828\"", 
+      "notification-bg": "set notification-bg \"#D5C4A1\"",
+      "notification-fg": "set notification-fg \"#282828\"",
+      "recolor-lightcolor": "set recolor-lightcolor \"#F9F5D7\"",
+      "recolor-darkcolor": "set recolor-darkcolor \"#282828\""
+    }
+  }
+}
