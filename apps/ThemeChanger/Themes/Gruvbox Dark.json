@@ -99,7 +99,7 @@
     "path": "",
     "confile": "",
     "configs": [
-      "swww img --transition-type wipe --transition-angle 30 --transition-step 120 /home/simo/Repos/Wallpapers/24.jpg"
+      "swww img --transition-type wipe --transition-angle 30 --transition-step 120 /home/simo/Repos/Wallpapers/100.png"
     ]
   },
   "rofi": {
