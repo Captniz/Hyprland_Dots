@@ -22,6 +22,8 @@ cp ~/.config/zathura/zathurarc ./zathura
 cp ~/.config/dunst/dunstrc ./dunst
 
 cp ~/.zshrc ./zsh/.zshrc
+cp ~/.config/spaceship/spaceship.zsh ./zsh/
+cp -r ~/.oh-my-zsh/custom/themes ./zsh/zsh-themes
 
 cp ~/.local/share/applications/WifiConnections.sh ./apps
 cp ~/.local/share/applications/notifyVolumeLevel.sh ./apps

@@ -40,6 +40,15 @@
           "family": "MesloLGS Nerd Font"
           
         }
+        
+      },
+      "window":
+      {
+        "padding":
+        {
+          "x": 10,
+          "y": 10
+        } 
       }
     }
   },
