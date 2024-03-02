@@ -23,7 +23,8 @@ cp ~/.config/dunst/dunstrc ./dunst
 
 cp ~/.zshrc ./zsh/.zshrc
 cp ~/.config/spaceship/spaceship.zsh ./zsh/
-cp -r ~/.oh-my-zsh/custom/themes ./zsh/zsh-themes
+cp ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ./zsh/zsh-themes
+cp -r ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme ./zsh/zsh-themes
 
 cp ~/.local/share/applications/WifiConnections.sh ./apps
 cp ~/.local/share/applications/notifyVolumeLevel.sh ./apps
