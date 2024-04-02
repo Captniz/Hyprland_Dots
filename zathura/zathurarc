@@ -13,41 +13,41 @@ set guioptions "s"
 
 # zathurarc-color
 set font Firacode Bold 10
-set default-bg "#1D2021"
-set default-fg "#FBF1C7"
+set default-bg "#FDF6E3"
+set default-fg "#5C6A72"
 
-set statusbar-bg "#7C6F64"
-set statusbar-fg "#83A598"
+set statusbar-bg "#FDF6E3"
+set statusbar-fg "#93B259"
 
-set inputbar-bg "#7C6F64"
-set inputbar-fg "#83A598"
+set inputbar-bg "#FDF6E3"
+set inputbar-fg "#93B259"
 
-set notification-error-bg "#FB4934"
-set notification-error-fg "#FBF1C7"
+set notification-error-bg "#FDF6E3"
+set notification-error-fg "#F57D26"
 
-set notification-warning-bg "#FABD2F"
-set notification-warning-fg "#FBF1C7"
+set notification-warning-bg "#FDF6E3"
+set notification-warning-fg "#E66868"
 
-set highlight-color "#83A598"
-set highlight-active-color "#83A598"
+set highlight-color #8DA101
+set highlight-active-color "#DFA000"
 
-set completion-highlight-bg "#83A598"
-set completion-highlight-fg "#282828"
+set completion-highlight-bg "#FDF6E3"
+set completion-highlight-fg "#93B259"
 
-set completion-bg "#928374"
-set completion-fg "#FBF1C7"
+set completion-bg "#FDF6E3"
+set completion-fg "#93B259"
 
-set notification-bg "#928374"
-set notification-fg "#FBF1C7"
+set notification-bg "#FDF6E3"
+set notification-fg "#93B259"
 
 set recolor "true"
-set recolor-lightcolor "#1D2021"
-set recolor-darkcolor "#FBF1C7"
+set recolor-lightcolor "#FDF6E3"
+set recolor-darkcolor "#5C6A72"
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 
-set default-bg "#1D2021"
-set default-fg "#FBF1C7"
+set default-bg "#FDF6E3"
+set default-fg "#5C6A72"
 
 set render-loading "false"
 set scroll-step 50
