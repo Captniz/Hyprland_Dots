@@ -1,3 +1,5 @@
+<h1 align="center"><b>OUTDATED OR BROKEN - Check out my other repo NixOs-dots</b></h1>
+
 <h1 align="center"><b>[Hyprland] Arch Dots</b></h1>
 
 <div align="center" >
@@ -6,12 +8,7 @@ Config files from my Arch - Hyprland linux daily driver, planning on eventually 
 <br>
     <img src="imgs/20231016_21h25m36s_grim.png" width="80%" height="%80" style="border: solid 1px">
 </div>
-  
-========================================================  
-# OUTDATED OR BROKEN - Check out my other repo NixOs-dots  
-   
-========================================================  
-  
+    
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
