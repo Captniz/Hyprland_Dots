@@ -8,7 +8,8 @@ Config files from my Arch - Hyprland linux daily driver, planning on eventually 
 </div>
   
 ========================================================  
-OUTDATED OR BROKEN - Check out my other repo NixOs-dots  
+# OUTDATED OR BROKEN - Check out my other repo NixOs-dots  
+   
 ========================================================  
   
 ## Table of Contents
